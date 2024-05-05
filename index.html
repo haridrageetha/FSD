@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"
+<meta charset="UTF-8"><meta name="viewport" content="width=<device-width>, initialscale=1.0">
+<head>
+<link rel="stylesheet" href="fsd.css">
+<script src="fsd.js" ></script>
+<title>Registration Form</title>
+</head>
+<body >
+<br>
+<br>
+<form name="registrationForm" onsubmit="return validateForm()">
+<h1 style="text-align:center;" ">AIIMS - SALEM MEDICAL COLLEGE</h1>
+<h2 style="text-align:center;">ADMISSION FORM</h2>
+<table align="center" cellpadding = "10">
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>MIDDLE NAME</td>
+<td><input type="text" name="Middle_Name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>RELIGION</td>
+<td><input type="text" name="Religion" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td><input type="date" name="DOB" min="1979-01-01" max="2006-12-31">
+</select>
+</td>
+</tr>
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="80" /></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+</td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>
+<input type="radio" name="Gender" value="Male" />Male
+<input type="radio" name="Gender" value="Female" />Female
+<input type="radio" name="Gender" value="Other" />Other
+</td>
+</tr>
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="40"></textarea></td>
+</tr>
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+</td>
+</tr>
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+</td>
+</tr>
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+</td>
+</tr>
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+</tr>
+<tr>
+<td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+<td>
+<table>
+<tr>
+<td align="center"><b>Sl.No.</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Marks</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year</b></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Class X</td>
+<td><input type="text" name="ClassX_Marks" maxlength="30" /></td>
+<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassX_Year" maxlength="30" /></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Class XII</td>
+<td><input type="text" name="ClassXII_Marks" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_Year" maxlength="30" /></td>
+</tr>
+<tr>
+<td>3</td>
+<td>NEET</td>
+<td><input type="text" name="Graduation_Marks" maxlength="30" /></td>
+<td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Graduation_Year" maxlength="30" /></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Graduation</td>
+<td><input type="text" name="Masters_Marks" maxlength="30" /></td>
+<td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Masters_Year" maxlength="30" /></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+COURSE </td>
+<td><select>
+<option value="COURSE">Course</option>
+<option value="MBBS">MBBS(Bachelor of Medicine and Bachelor of Surgery) </option>
+<option value="BDS">BDS(Bachelor of Dental Surgery</option>
+<option value="BHMS">BHMS(Bachelor of Homeopathic Medicine & Surgery) </option>
+<option value="BAMS">BAMS(Bachelor of Ayurvedic Medicine and Surgery)</option>
+<option value="MS">MS(Master of Surgery)</option>
+<option value="MD">DM(Doctorate in Medicine)</option>
+</select>
+</tr>
+</td>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
